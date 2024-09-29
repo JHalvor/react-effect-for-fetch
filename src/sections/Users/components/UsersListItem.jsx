@@ -1,5 +1,4 @@
 export default function UserListItem({ userItem: {firstName, lastName, email, profileImage, favouriteColour} }) {
-    console.log(firstName)
     return (
         <li style={{ backgroundColor: favouriteColour }}>
             <img
