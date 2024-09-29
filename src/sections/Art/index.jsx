@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import ArtList from "./components/ArtList"
 
-function ArtsSection() {
+export default function ArtsSection() {
   const url = "https://boolean-uk-api-server.fly.dev/art";
   const [artsData, setArtsData] = useState([]);
 
@@ -24,5 +24,3 @@ function ArtsSection() {
     </section>
   )
 }
-
-export default ArtsSection

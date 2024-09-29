@@ -1,5 +1,3 @@
-
-
 export default function ArtListItem({ artItem: {id, title, artist, imageURL, publicationHistory} }) {
     return (
         <li>
