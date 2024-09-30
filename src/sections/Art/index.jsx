@@ -14,7 +14,7 @@ export default function ArtsSection() {
     };
     fetchData();
   }, []);
-
+  
   return (
     <section>
       <h2>Arts Section</h2>

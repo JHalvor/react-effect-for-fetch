@@ -1,5 +1,4 @@
-export default function AdviceSlip({adviceSlip: {advice}}) {
-    console.log("in adviceslip", advice)
+export default function AdviceSlip({adviceSlip: { advice }}) {
     return (
         <p>{advice}</p>
     )
